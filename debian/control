@@ -1,0 +1,22 @@
+Source: python-pyperplan
+Section: python
+Priority: optional
+Maintainer: Johannes Rothe <rothe@magazino.eu>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-setuptools, python3-all
+Standards-Version: 4.4.1
+Homepage: https://github.com/aibasel/pyperplan
+Vcs-Browser: https://github.com/aibasel/pyperplan
+Vcs-Git: https://github.com/aibasel/pyperplan.git
+
+Package: python3-python-pyperplan
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Lightweight STRIPS planner written in Python. (Python 3)
+ Pyperplan supports the following PDDL fragment: STRIPS without action costs.
+ .
+ Please note that Pyperplan deliberately prefers clean code over fast code.
+ It is designed to be used as a teaching or prototyping tool.
+ If you use it for paper experiments, please state clearly that Pyperplan
+ does not offer state-of-the-art performance.
+ .
+ This package installs the library for Python 3.
