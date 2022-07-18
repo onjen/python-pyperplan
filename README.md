@@ -1,3 +1,6 @@
+# READ ONLY
+This project moved to Debian Salsa [here](https://salsa.debian.org/rothe/python-pyperplan)
+
 **Pyperplan** is a lightweight STRIPS planner written in Python.
 
 Please note that Pyperplan deliberately prefers clean code over fast
